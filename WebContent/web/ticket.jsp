@@ -52,7 +52,17 @@
                     <button name="ticket" id="clickPrice" class="btn-large clickSubmit btn btn-primary" type="submit" onclick="return false;">Siguiente</button>                    
                 </p>
             </form>
-</div>
+        </div>	
+		<div class="panel panel-primary col-md-8">
+		<h2>Detalles</h2>        
+			<table >
+			    <tr>
+			      <td><%=dsc.getDesc()%></td>
+			      <td><iframe width="420" height="315" src="<%=dsc.getUrl()%>" frameborder="0" allowfullscreen></iframe></td>
+			    </tr>
+			</table>
+	    <a href="Home" ><button name="#" id="#" class="btn-large clickSubmit btn btn-primary" type="submit" >Regresar</button></a></br></br>                        
+		</div>
 
 <script type="text/javascript">
     var prices=[
