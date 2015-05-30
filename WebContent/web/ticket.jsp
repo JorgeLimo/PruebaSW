@@ -62,6 +62,17 @@
 			    </tr>
 			</table>
 	    <a href="Home" ><button name="#" id="#" class="btn-large clickSubmit btn btn-primary" type="submit" >Regresar</button></a></br></br>                        
+		
+				<div class="panel panel-primary col-md-8">
+		<h2>Cines Disponibles</h2>        
+			<table >
+			    <tr>
+			      <td><%=dsc.getCines()%></td>
+			      <td><iframe width="420" height="315" src="<%=dsc.getUrlCine()%>" frameborder="0" allowfullscreen></iframe></td>
+			    </tr>
+			</table>
+	   	</div>
+		
 		</div>
 
 <script type="text/javascript">
